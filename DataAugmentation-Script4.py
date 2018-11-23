@@ -88,3 +88,10 @@ plt.plot(epochs, val_loss, 'b', label='Validation loss')
 plt.title('Training and validation loss')
 plt.legend()
 plt.show()
+
+
+# Evaluating Generator Model scripts
+'''
+test_loss, test_acc = model.evaluate_generator(test_generator, steps=50)
+print('test acc:', test_acc)
+'''
